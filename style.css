@@ -107,7 +107,7 @@ a {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 70px 50px;
 }
 
 .bloc-md {
@@ -725,6 +725,8 @@ a[data-lightbox]:hover img {
 .social {
     max-width: 400px;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -984,12 +986,11 @@ a[data-lightbox]:hover img {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px;
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 20px;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
@@ -1042,5 +1043,9 @@ a[data-lightbox]:hover img {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-mobile {
+        padding: 50px 0 20px 0;
+        margin: auto;
     }
 }
