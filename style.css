@@ -727,7 +727,7 @@ a[data-lightbox]:hover img {
     max-width: 400px;
     margin: auto;
     display: flex;
-    justify-content: spa;
+    justify-content: space-between;
 }
 
 
